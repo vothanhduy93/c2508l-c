@@ -1,0 +1,41 @@
+Ôn tập buổi 01:
+
+Ngôn ngữ lập trình = từ vựng (keyword) + ngữ pháp (syntax: cú pháp)
+
+--------------
+
+Buổi 2
+
+file .exe là executable file tức là file thực thi chương trình
+
+------------
+
+Biến số (variable)
+	+ Gán giá trị cố định khi khởi tạo biến
+	+ Cho người dùng nhập liệu
+Hằng (constant)
+
+
+1. Khai báo biến mà không khởi tạo giá trị cho biến
+(Declare variable)
+
+VD: int tuoi;
+=> khai báo 1 biến là tuoi có kiểu dữ liệu là kiểu số nguyên (integer)
+
+2. Khởi tạo biến (vừa khai báo vừa gán giá trị cho biến)
+(Initialize)
+
+VD: int tuoi = 35;
+
+Khi chúng ta khai báo biến thì hệ điều hành (OS) sẽ cấp phát tài nguyên để lưu trữ giá trị của biến đó trong bộ nhớ RAM
+
+
+
+
+
+
+
+
+
+
+
