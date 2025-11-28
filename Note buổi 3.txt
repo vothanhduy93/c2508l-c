@@ -1,0 +1,69 @@
+Ôn tập buổi 2
+-----------------------------
+
+Các kiểu dữ liệu cơ bản:
+
+1. int: số nguyên
+2. float: số thực mà độ chính xác là 6 chữ số sau dấu chấm
+VD: 8.555555
+3. double: số thực nhưng độ chính xác là 15 chữ số sau dấu chấm
+VD: 8.555555555555555
+4. char (character: ký tự): dùng để lưu 1 ký tự nằm trong dấu dáy đơn (')
+
+------------------------------------
+
+Type casting: ép kiểu
+nghĩa là từ 1 kiểu dữ liệu cho trước ráng làm sao ép sang kiểu dữ liệu khác
+
+	1. Ép kiểu ngầm định (Implicit Casting) (chương trình tự thực hiện hành vi ép kiểu)
+=> kết quả không như mong đợi
+
+	2. Ép kiểu tường minh (Explicit Casting) (lập trình viên tự thực hiện hành vi ép kiểu)
+
+Dấu & là toán tử địa chỉ
+
+Toán tử (operators)
+Toán hạng (operands)
+
+VD: a + b
+
+%: chia lấy phần dư
+
+------------------------------------
+a++ và ++a
+
+Nếu a++ hoặc ++a đứng 1 mình trong 1 câu lệnh thì không có gì xảy ra
+
+Nếu a++ hoặc ++a tham gia vào 1 biểu thức tính toán hoặc in ra màn hình thì ++a sẽ tăng biến a lên 1 đơn vị trước rồi mới thực hiện.
+Còn a++ là thực hiện hành vi tính toán hoặc in ra màn hình trước rồi mới tăng giá trị của biến a.
+
+-------------
+Trong C, 0 là đại diện cho false (tức là sai), số khác 0 là true (tức là đúng). Thường người ta dùng 1 là true
+
+Trong những ngôn ngữ hiện đại (bậc cao) thì nó có kiểu dữ liệu boolean (true/false)
+
+=> Từ phiên bản C99 thì C có kiểu dữ liệu boolean nhưng không chính quy (tức là phải dùng thư viện stdbool.h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
