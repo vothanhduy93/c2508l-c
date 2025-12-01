@@ -1,0 +1,138 @@
+Note buổi 4
+-------------------
+
+Toán tử luận lý (logical operators)
+
+1. && (toán tử and/và/đồng thời): 2 vế trái, phải là true thì toàn bộ mệnh đề sẽ là true
+
+VD: true && true = true
+false && true = false
+false && false = false
+
+2. || (toán tử or/hoặc): chỉ cần 1 vế true thì toàn bộ mệnh đề sẽ là true
+VD:
+
+true || false = true
+true || true = true
+false || false = false
+
+3. ! (nghịch đảo)
+
+VD: !true = false
+!false = true
+
+-----------------
+
+Cấu trúc tuần tự (sequentially)
+Cấu trúc rẽ nhánh
+
+Syntax:
+
+	if(điều kiện){
+		// khối code luôn được thực thi nếu điều kiện trên là true
+	}
+
+	
+	if(điều kiện){
+		// khối code luôn được thực thi nếu điều kiện trên là true
+	}else{
+		// khối code luôn được thực thi nếu điều kiện trên là false
+	}
+
+
+	if (điều kiện 1) {
+		// thực thi khối lệnh nếu điều kiện 1 là true
+	} else if (điều kiện 2) {
+  		// thực thi khối lệnh nếu điều kiện 2 là true
+	} else {
+  		// thực thi khối lệnh nếu điều kiện 2 là false
+	}
+
+
+Bài tập:
+
+Viết chương trình kiểm tra 1 số nguyên nhập vào là số chẵn hay số lẻ
+
+Giải thuật:
+- Lấy số nhập vào % 2
+- Nếu số dư bằng 0 thì số nhập vào là số chẵn
+- Ngược lại là số lẻ
+
+=> Dùng if(số nhập vào % 2 == 0) ... else
+
+Bài tập 2:
+
+Giải phương trình bậc 1: ax + b = 0
+
+Nếu (a == 0 && b != 0) => Phương trình vô nghiệm
+Nếu (a == 0 && b == 0) => Phương trình vô số nghiệm
+
+x = -b / a;
+
+---------
+
+Nguyên tắc tối ưu code:
+
+Những đoạn lệnh nào lặp đi lặp lại thì tìm cách viết nó 1 lần để sử dụng nhiều lần
+
+-------------
+
+Long hand: viết code theo kiểu tường minh
+
+Short hand: cú pháp viết tắt
+
+(điều kiện) ? lệnh chạy nếu điều kiện true : lệnh chạy nếu điều kiện false
+
+
+=> Toán tử ba ngôi (ternary operator)
+
+a += b; chính là a = a + b
+=> toán tử 2 ngôi
+
+a++; chính là a = a + 1;
+=> toán tử 1 ngôi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
