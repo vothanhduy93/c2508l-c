@@ -1,0 +1,29 @@
+Vòng lặp
+---------------
+Cấu trúc tuần tự (sequentially)
+Cấu trúc điều kiện (conditionally)
+Cấu trúc lặp (repeatition):
+	+ Vòng lặp for
+	+ Vòng lặp while
+	+ Vòng lặp do while
+
+VD: in ra màn hình bảng cửu chương 2
+-------------------
+Vòng lặp for 
+
+Syntax:
+	for(expression1; expression 2; expression 3){
+		// code block
+	}
+
+Biểu thức 1: tạo biến điều khiển
+Biểu thức 2: điều kiện để tiếp tục/dừng vòng lặp
+Biểu thức: thay đổi giá trị của biến điều khiển. Mục đích để thoả mãn biểu thức 2
+
+
+
+
+
+
+
+
