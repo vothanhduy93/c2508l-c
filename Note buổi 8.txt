@@ -1,0 +1,143 @@
+Note buổi 8
+---------------------
+
+Function (hàm) dịch sang tiếng Việt là "chức năng"
+
+Khối lệnh (code block) là tập hợp nhiều câu lệnh
+
+=> Tự định nghĩa: hàm là 1 khối lệnh nhằm thực hiện 1 chức năng cụ thể nào đó
+
+VD: hàm tính tổng 2 số nguyên, trừ 2 số, hàm tìm max, min
+
+Cú pháp (syntax):
+
+kieu_du_lieu ten_ham(){
+	// Khối lệnh
+	return gia_tri;
+}
+
+Hành vi tính tổng 2 số thì mong đợi của mình là tổng 
+
+--------
+
+return_value_type function function_name(){
+	return return_value;
+}
+
+Lỗi runtime (runtime error): là lỗi xảy ra trong quá trình thực thi chương trình
+Lỗi syntax (syntax error): là lỗi viết sai cú pháp của ngôn ngữ
+
+
+---------------------------------------------
+
+Nếu muốn định nghĩa hàm nằm sau hàm main có được không?
+
+=> explicit declaration: định nghĩa hàm tường minh
+
+=> function prototype (nguyên mẫu hàm)
+
+Syntax: return_value_type function_name();
+
+----------------------------
+
+Hàm có tham số (parameters)
+
+Tham số: dữ liệu đầu vào của hàm
+
+VD: hàm tinhTong thì sẽ có 2 tham số là a, b
+
+--------------------------------
+
+Túm lại:
+
+Function (hàm chức năng) gom nhóm chức năng
+
+1. Hàm có trả về giá trị
+	+ Cần khai báo 1 biến để hứng giá trị trả về đó
+
+2. Hàm không trả về gì cả
+	+ Kiểu trả về (return value type) là kiểu void
+
+--
+Function call (lời gọi hàm): khi muốn 1 hàm được gọi để thực thi thì cần lời gọi hàm
+
+Lưu ý: Phần định nghĩa hàm (function definition) phải đặt trước hàm main() để chương trình luôn hoạt động đúng
+
+Nếu muốn định nghĩa hàm đằng sau hàm main() thì phải dùng function prototype (nguyên mẫu hàm)
+
+=> Thông thường người ta sẽ đưa phần khai báo hàm (function prototype) lên trên đầu tập lệnh (đầu file) để quản lý chương trình dễ dàng
+--
+Đối với hàm cần dữ liệu đầu vào thì phải định nghĩa hàm có truyền vào tham số (param).
+
+Truyền tham trị (pass by value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
