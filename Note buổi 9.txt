@@ -1,0 +1,13 @@
+Note buổi 9
+-----
+
+scope
+
+biến và chu trình sống của biến
+
+-------------------------
+Mảng (array)
+
+là tập hợp nhiều phần tử (element of array) có cùng 1 kiểu dữ liệu
+	+ Mảng 1 chiều 
+	+ Mảng đa chiều (chủ yếu 2 chiều)
